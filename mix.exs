@@ -14,10 +14,7 @@ defmodule Sahnee.Config.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger],
-      env: [
-        default_otp: :sahnee_config
-      ]
+      extra_applications: [:logger]
     ]
   end
 
